@@ -42,7 +42,7 @@ nav{
 
 .contenitore-sezione{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 
@@ -87,4 +87,15 @@ h2{
 .scritta-bottone{
     height: 200px;
     background-color: greenyellow;
+}
+
+
+.prima-colonna{
+    display: flex;
+    background-color: red;
+}
+
+.prima-colonna{
+    display: flex;
+    background-color: orange;
 }
