@@ -58,12 +58,14 @@ nav{
     background-color: greenyellow;
     margin-right: 20px;
     height: 200px;
+    flex-basis: 50%;
 }
 
 .uno .contenitore-destra{
     background-color: green;
     margin-left: 20px;
     height: 200px;
+    flex-basis: 50%;
 }
 
 .due{
@@ -74,12 +76,14 @@ nav{
     background-color: green;
     margin-right: 20px;
     height: 200px;
+    flex-basis: 50%;
 }
 
 .due .contenitore-destra{
     background-color: greenyellow;
     margin-left: 20px;
     height: 200px;
+    flex-basis: 50%
 }
 
 h2{
