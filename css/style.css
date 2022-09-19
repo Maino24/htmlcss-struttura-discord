@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
 header{
     background-color: grey;
 }
@@ -89,13 +96,30 @@ h2{
     background-color: greenyellow;
 }
 
-
-.prima-colonna{
+.tabella{
     display: flex;
-    background-color: red;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .prima-colonna{
+    background-color: red;
+    height: 400px;
+    
+}
+
+.seconda-colonna{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
     background-color: orange;
+    height: 400px;
+    flex-direction: row;
+}
+
+.prima-prima{
+    border: 1px solid black;
+    flex-direction: row;
 }
