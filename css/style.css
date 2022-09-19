@@ -50,6 +50,7 @@ nav{
 .contenitore-sezione{
     display: flex;
     justify-content: space-between;
+    
 }
 
 
