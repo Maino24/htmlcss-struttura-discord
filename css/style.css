@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header{
+    background-color: grey;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -13,24 +15,29 @@
   display: flex;
   background-color: red;
   justify-content: space-between;
+  height: 50px;
 }
 
 .logo{
     background-color: greenyellow;
+    width: 40px;
 }
 
 nav{
     background-color: greenyellow;
+    width: 200px;
 }
 
 .link{
     background-color: greenyellow;
+    width: 40px;
 }
 
 .sotto-menu{
     width: 60%;
     margin: auto;
     background-color: orange;
+    height: 300px;
 }
 
 .contenitore-sezione{
@@ -41,13 +48,27 @@ nav{
 .uno .contenitore-sinistra{
     background-color: greenyellow;
     margin-right: 20px;
+    height: 200px;
 }
 
 .uno .contenitore-destra{
     background-color: green;
     margin-left: 20px;
+    height: 200px;
 }
 
 .due{
     background-color: grey;
+}
+
+.due .contenitore-sinistra{
+    background-color: green;
+    margin-right: 20px;
+    height: 200px;
+}
+
+.due .contenitore-destra{
+    background-color: greenyellow;
+    margin-left: 20px;
+    height: 200px;
 }
