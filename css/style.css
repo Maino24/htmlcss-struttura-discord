@@ -38,12 +38,16 @@ nav{
 }
 
 
-.contenitore-sinistra{
+.uno .contenitore-sinistra{
     background-color: greenyellow;
     margin-right: 20px;
 }
 
-.contenitore-destra{
-    background-color: greenyellow;
+.uno .contenitore-destra{
+    background-color: green;
     margin-left: 20px;
+}
+
+.due{
+    background-color: grey;
 }
