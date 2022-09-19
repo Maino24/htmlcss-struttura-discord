@@ -11,4 +11,18 @@
 
 .menu{
   display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.logo{
+    background-color: greenyellow;
+}
+
+nav{
+    background-color: greenyellow;
+}
+
+.link{
+    background-color: greenyellow;
 }
