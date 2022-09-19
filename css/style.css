@@ -123,3 +123,17 @@ h2{
     border: 1px solid black;
     flex-direction: row;
 }
+
+.footer-fine{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.imgdiscord-registrati{
+    background-color: lightblue;
+    height: 60px;
+    width: 40px;
+
+}
