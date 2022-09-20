@@ -46,7 +46,8 @@ nav{
 
 .sotto-menu{
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
+    text-align: center;
     background-color: orange;
     height: 300px;
 }
