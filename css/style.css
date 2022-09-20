@@ -13,16 +13,20 @@
 header{
     background-color: grey;
 }
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
 .container{
     width: 80%;
     margin: auto;
-}
-
-.menu{
-  display: flex;
-  background-color: red;
-  justify-content: space-between;
-  height: 50px;
 }
 
 .logo{
@@ -30,9 +34,9 @@ header{
     width: 40px;
 }
 
-nav{
+.lista{
     background-color: greenyellow;
-    width: 200px;
+    width: 40px;
 }
 
 .link{
