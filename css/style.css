@@ -111,6 +111,7 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    border-bottom: solid gray 2px;
 }
 
 .prima-colonna{
